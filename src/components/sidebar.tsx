@@ -28,6 +28,7 @@ const Sidebar = () => {
       <nav className="sticky top-0 p-4 space-y-2">
         <SidebarLink to="/json-formatter">JSON Formatter</SidebarLink>
         <SidebarLink to="/base64-encoder">Base64 Encoder</SidebarLink>
+        <SidebarLink to="/js-minifier">JavaScript Minifier</SidebarLink>
       </nav>
     </aside>
   );

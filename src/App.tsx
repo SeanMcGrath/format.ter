@@ -7,6 +7,7 @@ import Sidebar from "./components/sidebar";
 import JsonFormatter from "./pages/JsonFormatter";
 import { Toaster } from "./components/ui/toaster";
 import Base64Encoder from "./pages/Base64Encoder";
+import JsMinifier from "./pages/JsMinifier";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                   <Route path="/" element={<JsonFormatter />} />
                   <Route path="/json-formatter" element={<JsonFormatter />} />
                   <Route path="/base64-encoder" element={<Base64Encoder />} />
+                  <Route path="/js-minifier" element={<JsMinifier />} />
                 </Routes>
               </div>
             </div>
