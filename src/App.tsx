@@ -6,6 +6,7 @@ import Providers from "@/components/providers";
 import Sidebar from "./components/sidebar";
 import JsonFormatter from "./pages/JsonFormatter";
 import { Toaster } from "./components/ui/toaster";
+import Base64Encoder from "./pages/Base64Encoder";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
                 <Routes>
                   <Route path="/" element={<JsonFormatter />} />
                   <Route path="/json-formatter" element={<JsonFormatter />} />
+                  <Route path="/base64-encoder" element={<Base64Encoder />} />
                 </Routes>
               </div>
             </div>

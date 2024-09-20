@@ -27,6 +27,7 @@ const Sidebar = () => {
     <aside className="fixed top-14 z-30 -ml-2 hidden h-[calc(100vh-3.5rem)] w-full shrink-0 md:sticky md:block">
       <nav className="sticky top-0 p-4 space-y-2">
         <SidebarLink to="/json-formatter">JSON Formatter</SidebarLink>
+        <SidebarLink to="/base64-encoder">Base64 Encoder</SidebarLink>
       </nav>
     </aside>
   );
